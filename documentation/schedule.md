@@ -5,6 +5,7 @@ Sorted in order of highest priority first.
 
 | Feature       | Task                                      | Estimate | Total | Status |
 |---------------|-------------------------------------------|---------:|------:|-------:|
+| Documentation | Create development file.                  |       2h |       |        |
 | Documentation | Determine server technology stack.        |       2h |       |        |
 | Documentation | Determine client technology stack.        |       2h |       |        |
 | Testing       | Unit, integration, and performance setup. |       4h |       |        |

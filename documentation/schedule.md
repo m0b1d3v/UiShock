@@ -5,7 +5,6 @@ Sorted in order of highest priority first.
 
 | Feature       | Task                                      | Estimate | Total | Status |
 |---------------|-------------------------------------------|---------:|------:|-------:|
-| Documentation | Create specification.                     |       4h |       |        |
 | Documentation | Determine server technology stack.        |       2h |       |        |
 | Documentation | Determine client technology stack.        |       2h |       |        |
 | Testing       | Unit, integration, and performance setup. |       4h |       |        |
@@ -18,4 +17,5 @@ Sorted in order of highest priority first.
 | Server        | Mock up data relations.                   |       2h |       |        |
 | Client        | PWA functionality.                        |       2h |       |        |
 | ------------- | ----------------------------------------- | -------- | ----- | ------ |
+| Documentation | Create specification.                     |       4h |    3h |   Done |
 | Documentation | Create schedule.                          |       1h |    1h |   Done |

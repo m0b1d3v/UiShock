@@ -5,6 +5,7 @@ Sorted in order of highest priority first.
 
 | Feature       | Task                                      | Estimate | Total | Status |
 |---------------|-------------------------------------------|---------:|------:|-------:|
+| Makefile      | Create task runner for common operations. |       1h |       |        |
 | Testing       | Unit, integration, and performance setup. |       4h |       |        |
 | Operations    | Logging.                                  |       1h |       |        |
 | Operations    | Health check.                             |       1h |       |        |

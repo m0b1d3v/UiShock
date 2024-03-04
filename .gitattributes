@@ -1,0 +1,3 @@
+# Protect Gradle Wrapper scripts from incorrect EOL
+code/gradlew text eol=lf
+code/gradlew.bat text eol=crlf

@@ -5,7 +5,6 @@ Sorted in order of highest priority first.
 
 | Feature       | Task                                      | Estimate | Total | Status |
 |---------------|-------------------------------------------|---------:|------:|-------:|
-| Makefile      | Create task runner for common operations. |       1h |       |        |
 | Testing       | Unit, integration, and performance setup. |       4h |       |        |
 | Operations    | Logging.                                  |       1h |       |        |
 | Operations    | Health check.                             |       1h |       |        |
@@ -17,6 +16,7 @@ Sorted in order of highest priority first.
 | Server        | Mock up data relations.                   |       2h |       |        |
 | Client        | PWA functionality.                        |       2h |       |        |
 | ------------- | ----------------------------------------- | -------- | ----- | ------ |
+| Makefile      | Create task runner for common operations. |       1h |    1h |   Done |
 | Server        | Build tool dependencies.                  |       1h |    1h |   Done |
 | Documentation | Determine server technology stack.        |       2h |    2h |   Done |
 | Documentation | Determine client technology stack.        |       2h |    1h |   Done |

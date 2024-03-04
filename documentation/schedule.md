@@ -5,11 +5,13 @@ Sorted in order of highest priority first.
 
 | Feature       | Task                                      | Estimate | Total | Status |
 |---------------|-------------------------------------------|---------:|------:|-------:|
+| Server        | Build tool dependencies.                  |       1h |       |        |
 | Testing       | Unit, integration, and performance setup. |       4h |       |        |
 | Operations    | Logging.                                  |       1h |       |        |
 | Operations    | Health check.                             |       1h |       |        |
 | Operations    | Exception alerts.                         |       1h |       |        |
 | Operations    | SonarCloud scanning.                      |       1h |       |        |
+| Database      | Migrations.                               |       1h |       |        |
 | Client        | Setup favicon.                            |       1h |       |        |
 | Client        | Mock up designs.                          |       4h |       |        |
 | Server        | Mock up data relations.                   |       2h |       |        |

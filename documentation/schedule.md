@@ -5,7 +5,6 @@ Sorted in order of highest priority first.
 
 | Feature       | Task                                      | Estimate | Total | Status |
 |---------------|-------------------------------------------|---------:|------:|-------:|
-| Testing       | Unit, integration, and performance setup. |       4h |       |        |
 | Operations    | Logging.                                  |       1h |       |        |
 | Operations    | Health check.                             |       1h |       |        |
 | Operations    | Exception alerts.                         |       1h |       |        |
@@ -13,7 +12,9 @@ Sorted in order of highest priority first.
 | Database      | Migrations.                               |       1h |       |        |
 | Client        | Setup favicon.                            |       1h |       |        |
 | Client        | Mock up designs.                          |       4h |       |        |
+| Testing       | End to end testing setup of client.       |       2h |       |        |
 | Server        | Mock up data relations.                   |       2h |       |        |
+| Testing       | Server performance testing setup.         |       2h |       |        |
 | Client        | PWA functionality.                        |       2h |       |        |
 | ------------- | ----------------------------------------- | -------- | ----- | ------ |
 | Makefile      | Create task runner for common operations. |       1h |    1h |   Done |

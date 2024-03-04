@@ -1,2 +1,6 @@
 # Editor(s)
 .idea/
+
+# Gradle cache and build output
+.gradle
+build

@@ -5,6 +5,7 @@ Sorted in order of highest priority first.
 
 | Feature       | Task                                      | Estimate | Total | Status |
 |---------------|-------------------------------------------|---------:|------:|-------:|
+| Server        | Framework setup.                          |       1h |       |        |
 | Operations    | Logging.                                  |       1h |       |        |
 | Operations    | Health check.                             |       1h |       |        |
 | Operations    | Exception alerts.                         |       1h |       |        |

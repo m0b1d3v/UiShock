@@ -4,6 +4,9 @@ logging:
     # Keywords at https://logback.qos.ch/manual/layouts.html#conversionWord
     console: "%date{ISO8601} %clr(%5p) [%15.15t] %clr(%-40.40logger{39}){cyan} [%mdc] {%kvp} %m%n%wEx"
 
+sentry:
+  dsn: # Intentionally left empty, only set in production
+
 spring:
   main:
     banner-mode: off # Don't display large "Spring" text every time the application starts

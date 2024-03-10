@@ -7,7 +7,9 @@ plugins {
     id 'application' // CLI usage
 
 	id 'com.github.ben-manes.versions' version '0.51.0' // Dependency update checks
+	id 'io.spring.dependency-management' version '1.1.4' // Dependency management for Spring Boot
 	id 'org.owasp.dependencycheck' version '9.0.9' // Dependency vulnerability checks
+	id 'org.springframework.boot' version '3.2.3' // Framework
 
 }
 
@@ -24,6 +26,7 @@ dependencies {
 
     // This dependency is used by the application.
     implementation libs.guava
+	implementation('org.springframework.boot:spring-boot-starter-web') // Web applications through embedded Tomcat
 }
 
 // Apply a specific Java toolchain to ease working on different environments.

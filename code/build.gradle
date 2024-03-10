@@ -50,3 +50,13 @@ application {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+sonar {
+	properties {
+		property 'sonar.gradle.skipCompile', 'true'
+		property 'sonar.host.url', 'https://sonarcloud.io'
+		property 'sonar.organization', 'm0b1'
+		property 'sonar.projectKey', 'm0b1d3v_UiShock'
+		property 'sonar.projectName', 'ui-shock'
+	}
+}

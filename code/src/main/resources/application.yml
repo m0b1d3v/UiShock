@@ -1,3 +1,7 @@
 spring:
   main:
     banner-mode: off # Don't display large "Spring" text every time the application starts
+    keep-alive: true # Virtual threads use are daemons, and JVM exits by default if it has no non-daemon threads
+  threads:
+    virtual:
+      enabled: true # Threads without relying on operating system directly

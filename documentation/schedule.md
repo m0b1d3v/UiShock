@@ -5,19 +5,21 @@ Sorted in order of highest priority first.
 
 | Feature       | Task                                      | Estimate | Total | Status |
 |---------------|-------------------------------------------|---------:|------:|-------:|
-| Server        | Framework setup.                          |       1h |       |        |
 | Operations    | Logging.                                  |       1h |       |        |
 | Operations    | Health check.                             |       1h |       |        |
 | Operations    | Exception alerts.                         |       1h |       |        |
 | Operations    | SonarCloud scanning.                      |       1h |       |        |
 | Database      | Migrations.                               |       1h |       |        |
+| Client        | Investigate Vaadin component usage.       |       3h |       |        |
 | Client        | Setup favicon.                            |       1h |       |        |
 | Client        | Mock up designs.                          |       4h |       |        |
 | Testing       | End to end testing setup of client.       |       2h |       |        |
 | Server        | Mock up data relations.                   |       2h |       |        |
 | Testing       | Server performance testing setup.         |       2h |       |        |
 | Client        | PWA functionality.                        |       2h |       |        |
+| Branding      | "The shock heard round the world."        |       1h |       |        |
 | ------------- | ----------------------------------------- | -------- | ----- | ------ |
+| Server        | Framework setup.                          |       1h |    2h |   Done |
 | Makefile      | Create task runner for common operations. |       1h |    1h |   Done |
 | Server        | Build tool dependencies.                  |       1h |    1h |   Done |
 | Documentation | Determine server technology stack.        |       2h |    2h |   Done |

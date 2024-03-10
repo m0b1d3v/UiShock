@@ -5,7 +5,7 @@ all:
 	cat --number Makefile
 
 build:
-	$(gradle) assembleDist
+	$(gradle) assembleBootDist
 
 buildToolUpdate:
 	$(gradle) wrapper --gradle-version latest
@@ -20,7 +20,7 @@ clean:
 	$(gradle) clean
 
 run:
-	$(gradle) run
+	$(gradle) bootRun
 
 tasks:
 	$(gradle) tasks

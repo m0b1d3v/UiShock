@@ -10,14 +10,17 @@ build:
 buildToolUpdate:
 	$(gradle) wrapper --gradle-version latest
 
-checkDependencies:
-	$(gradle) dependencyUpdates
-
-checkVulnerabilities:
-	$(gradle) dependencyCheckAnalyze
-
 clean:
 	$(gradle) clean
+
+dependencies:
+	$(gradle) dependencies
+
+dependenciesUpdates:
+	$(gradle) dependencyUpdates
+
+dependenciesVulnerabilities:
+	$(gradle) dependencyCheckAnalyze
 
 run:
 	$(gradle) bootRun

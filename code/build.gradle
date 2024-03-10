@@ -21,7 +21,9 @@ repositories {
 
 dependencies {
 
+	annotationProcessor('org.springframework.boot:spring-boot-configuration-processor') // Editor resource file inspections
 
+	implementation('org.springframework.boot:spring-boot-starter-validation') // Jakarta validation annotations
 	implementation('org.springframework.boot:spring-boot-starter-web') // Web applications through embedded Tomcat
 
 	testImplementation('org.springframework.boot:spring-boot-starter-test') // JUnit 5

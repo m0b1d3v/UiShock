@@ -1,6 +1,9 @@
 # Shortcut command to run Gradle Wrapper in the code directory
 gradle = cd code && ./gradlew
 
+# Sonarcloud analysis token
+SONAR_TOKEN ?= $(error SONAR_TOKEN environment variable is missing)
+
 all:
 	cat --number Makefile
 
@@ -24,6 +27,9 @@ dependenciesVulnerabilities:
 
 run:
 	$(gradle) bootRun
+
+sonar: clean test
+	$(gradle) sonar
 
 tasks:
 	$(gradle) tasks

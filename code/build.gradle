@@ -8,6 +8,7 @@ plugins {
 
 	id 'com.github.ben-manes.versions' version '0.51.0' // Dependency update checks
 	id 'io.freefair.lombok' version '8.4' // Boilerplate reduction
+	id 'io.sentry.jvm.gradle' version '4.3.1' // Runtime exception monitoring
 	id 'io.spring.dependency-management' version '1.1.4' // Dependency management for Spring Boot
 	id 'org.owasp.dependencycheck' version '9.0.9' // Dependency vulnerability checks
 	id 'org.springframework.boot' version '3.2.3' // Framework

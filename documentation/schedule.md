@@ -8,15 +8,17 @@ Sorted in order of highest priority first.
 | Operations    | Health check.                             |       1h |       |        |
 | Operations    | Exception alerts.                         |       1h |       |        |
 | Operations    | SonarCloud scanning.                      |       1h |       |        |
-| Database      | Migrations.                               |       1h |       |        |
 | Client        | Investigate Vaadin component usage.       |       3h |       |        |
 | Client        | Setup favicon.                            |       1h |       |        |
 | Client        | Mock up designs.                          |       4h |       |        |
 | Testing       | End to end testing setup of client.       |       2h |       |        |
 | Server        | Mock up data relations.                   |       2h |       |        |
 | Testing       | Server performance testing setup.         |       2h |       |        |
+| Database      | Investigate client-side database.         |       1h |       |        |
 | Client        | PWA functionality.                        |       2h |       |        |
 | Branding      | "The shock heard round the world."        |       1h |       |        |
+| Provisioning  | Setup Ansible scripts.                    |       2h |       |        |
+| Provisioning  | Forward logs to Discord.                  |       3h |       |        |
 | ------------- | ----------------------------------------- | -------- | ----- | ------ |
 | Operations    | Logging.                                  |       1h |    1h |   Done |
 | Server        | Framework setup.                          |       1h |    2h |   Done |

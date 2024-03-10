@@ -10,10 +10,10 @@ Sorted in rough chronological order.
 - Add build tool dependencies and convenience script(s)
 - Add server framework setup
 - Add server monitoring with health check endpoint and exception alerts
+- Add static source code analysis via SonarCloud
 
 ## To do
 
-- Add static source code analysis via SonarCloud
 - Investigate Vaadin component usage for generating client
 - Add favicon from generic emoji set
 - Document mock-up client designs

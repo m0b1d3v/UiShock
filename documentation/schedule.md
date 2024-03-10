@@ -5,7 +5,6 @@ Sorted in order of highest priority first.
 
 | Feature       | Task                                      | Estimate | Total | Status |
 |---------------|-------------------------------------------|---------:|------:|-------:|
-| Operations    | Logging.                                  |       1h |       |        |
 | Operations    | Health check.                             |       1h |       |        |
 | Operations    | Exception alerts.                         |       1h |       |        |
 | Operations    | SonarCloud scanning.                      |       1h |       |        |
@@ -19,6 +18,7 @@ Sorted in order of highest priority first.
 | Client        | PWA functionality.                        |       2h |       |        |
 | Branding      | "The shock heard round the world."        |       1h |       |        |
 | ------------- | ----------------------------------------- | -------- | ----- | ------ |
+| Operations    | Logging.                                  |       1h |    1h |   Done |
 | Server        | Framework setup.                          |       1h |    2h |   Done |
 | Makefile      | Create task runner for common operations. |       1h |    1h |   Done |
 | Server        | Build tool dependencies.                  |       1h |    1h |   Done |

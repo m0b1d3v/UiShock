@@ -9,10 +9,10 @@ Sorted in rough chronological order.
 - Determine client and server technology stack
 - Add build tool dependencies and convenience script(s)
 - Add server framework setup
+- Add server monitoring with health check endpoint and exception alerts
 
 ## To do
 
-- Add server monitoring with health check endpoint and exception alerts
 - Add static source code analysis via SonarCloud
 - Investigate Vaadin component usage for generating client
 - Add favicon from generic emoji set
@@ -23,7 +23,13 @@ Sorted in rough chronological order.
 - Add server unit and integration testing setup
 - Investigate client-side database for initial release
 - Begin work on PiShock integration here
+- Add correlation ID to logging using built in Spring functionality
+- Add security to extra actuator endpoints for production use
+- Add metrics via Spring and add to actuator
+- Add auditing via AuditEventRepository
+- Add build information to actuator /info path
 - Add client PWA functionality
 - Add server performance testing setup
 - Add Ansible server provisioning scripts
+- Add Sentry exception monitoring DSN to Ansible
 - Add Discord log forwarding

@@ -5,6 +5,7 @@
 plugins {
 
     id 'application' // CLI usage
+	id 'jacoco' // Test coverage reports
 
 	id 'com.github.ben-manes.versions' version '0.51.0' // Dependency update checks
 	id 'io.freefair.lombok' version '8.4' // Boilerplate reduction
@@ -47,8 +48,16 @@ application {
     mainClass = 'dev.m0b1.uishock.App'
 }
 
-tasks.named('test') {
+test {
     useJUnitPlatform()
+	finalizedBy jacocoTestReport
+}
+
+jacocoTestReport {
+	dependsOn test
+	reports {
+		xml.required = true // For SonarCloud
+	}
 }
 
 sonar {

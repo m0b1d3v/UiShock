@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+
+<head th:fragment="head(title)">
+
+	<meta charset="utf-8"/>
+	<meta name="description" content="An alternative user interface for PiShock devices."/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<title th:replace="${title}">UiShock</title>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" th:href="@{/site.webmanifest}">
+
+	<link rel="stylesheet" th:href="@{/webjars/picocss__pico/2.0.3/css/pico.css}"/>
+	<link rel="stylesheet" th:href="@{/uishock.css}"/>
+
+	<script defer th:src="@{/uishock.js}"></script>
+	<!--/* <script src="http://localhost:35729/livereload.js"></script> */-->
+
+</head>
+
+</html>

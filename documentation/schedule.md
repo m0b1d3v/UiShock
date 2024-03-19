@@ -11,11 +11,11 @@ Sorted in rough chronological order.
 - Add server framework setup
 - Add server monitoring with health check endpoint and exception alerts
 - Add static source code analysis via SonarCloud
+- Investigate Vaadin for client generation
+- Add favicon from generic emoji set
 
 ## To do
 
-- Investigate Vaadin component usage for generating client
-- Add favicon from generic emoji set
 - Document mock-up client designs
 - Add client branding of logo, name, and tagline "The shock heard round the world."
 - Add client end-to-end testing setup

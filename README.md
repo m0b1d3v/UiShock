@@ -11,3 +11,7 @@ PiShock alternative user interface.
 ## Source Code Analysis
 
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/overall?id=m0b1d3v_UiShock)
+
+## Assets
+
+- Favicon generated from [favicon.io](https://favicon.io/emoji-favicons/cloud-with-lightning/)

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html
+	lang="en"
+	data-theme="dark"
+	xmlns:th="https://www.thymeleaf.org"
+	th:fragment="layout(title, content)"
+>
+
+<head th:replace="~{fragments/head :: head(${title})}">
+	<title>UiShock - Layout</title>
+</head>
+
+<body>
+
+<header th:replace="~{fragments/header :: header}"></header>
+<main th:replace="${content}"></main>
+<footer th:replace="~{fragments/footer :: footer}"></footer>
+
+</body>
+
+</html>

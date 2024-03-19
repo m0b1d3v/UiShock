@@ -32,6 +32,7 @@ dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-thymeleaf') // Client HTML
 	implementation('org.springframework.boot:spring-boot-starter-validation') // Jakarta validation annotations
 	implementation('org.springframework.boot:spring-boot-starter-web') // Web applications through embedded Tomcat
+	implementation('org.webjars.npm:picocss__pico:2.0.3') // Client CSS framework
 
 	testImplementation('org.springframework.boot:spring-boot-starter-test') // JUnit 5
 

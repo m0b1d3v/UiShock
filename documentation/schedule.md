@@ -13,6 +13,8 @@ Sorted in rough chronological order.
 - Add static source code analysis via SonarCloud
 - Investigate Vaadin for client generation
 - Add favicon from generic emoji set
+- Add Thymeleaf template system
+- Replace Thymeleaf with j2html
 
 ## To do
 
